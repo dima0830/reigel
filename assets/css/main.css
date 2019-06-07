@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:300,300i,400,400i,500,500i,700,700i');
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+body{
+	font-family: 'Open Sans', sans-serif !important;
+	color: #979797;
+}
+a:link {
+	text-decoration: none;
+}
+.menu{
+	background: #F3F5F8;
+	border-bottom: 1px solid #DBE0EC;
+}
+.buscador{
+	text-align: right;
+	float: right;
+	width: 100%;
+}
+.buscador:hover{
+	box-shadow: none;
+}
+.buscador i {
+	color: #979797;
+}
+.bcprin{
+	background: #F3F5F8;
+	padding: 5px;
+	border: none;
+	width: 90%;
+}
+.boton{
+	border: none;
+	background: none;
+}
+.log{
+	color: #979797;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	font-weight: 600;
+	margin-top: 8px;
+	display: inline-block;
+}
+.log:hover, .log:focus{
+	color: #4776E0;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+/* MEGAMENU STYLE
+-------------------------------------------------- */
+.megamenu-li {
+	position: static;
+}
+
+.megamenu {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	padding: 15px;
+}
+
+/* estilos mobil menu superior */
+@media only screen and (max-width: 760px){
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
