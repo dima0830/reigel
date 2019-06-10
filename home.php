@@ -85,6 +85,7 @@
         </div>
       </div>
     </div>
+    <br>
     <ol class="carousel-indicators indi" >
       <li data-target="#banner2" data-slide-to="0" class="active"></li>
       <li data-target="#banner2" data-slide-to="1"></li>
@@ -92,7 +93,7 @@
     </ol>
   </div>
 </div>
-<br>
+
 <div class="container-fluid">
   <div class="row" style="background-color:#F2F2F0">
     <div class="col-sm">

@@ -27,7 +27,7 @@
 	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
   </button>
-  <a class="navbar-brand" href="#" ><img src="assets/img/logo.jpg"> </a><div class="pc numer">| <i class="fas fa-phone"></i> Llamanos: <span>(51) 123-4567</span></div>
+  <a class="navbar-brand" href="home" ><img src="assets/img/logo.jpg"> </a><div class="pc numer">| <i class="fas fa-phone"></i> Llamanos: <span>(51) 123-4567</span></div>
  <div class="mobil user"><a href="#"><i class="fas fa-portrait"></i></a></div>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">

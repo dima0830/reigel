@@ -398,9 +398,17 @@ hr, .hrcolor {
 .head {
 	width: 100%;
 	display: block;
-	background-image: url(../img/nosotros.png);
 	text-align: center;
 	padding: 30px;
+}
+.nosot {
+	background-image: url(../img/nosotros.png);
+}
+.equi {
+	background-image: url(../img/eqipo-b.png);
+}
+.clien {
+	background-image: url(../img/clientes-b.png);
 }
 .head h3{
 	font-weight: bold;
@@ -435,6 +443,158 @@ hr, .hrcolor {
 	color: #fff;
 	font-size: 18px;
 	font-weight: 600;
+}
+.boxint{
+	margin-top: 50px
+}
+.titulo-izq{
+	font-weight: 600;
+	font-size: 34px;
+	color: #2B3344;
+	margin: 40px 0 30px;
+}
+.text-int {
+	font-weight: normal;
+	font-size: 14px;
+	color: #808080;
+	padding: 5px 15px 10px 0;
+}
+.text-int-b {
+	text-align: justify;
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+	padding: 5px 15px 10px 0;
+}
+.text-int-b span{
+	font-weight: 600;
+	display: block;
+	margin: 8px 0;
+	font-size: 18px;
+	color: #fff;
+	padding: 5px 15px 10px 0;
+}
+.boxazul{
+	background-color: #0B1F30;
+	background-image: url(../img/back.png);
+	padding: 20px 0 30px;
+	margin: 40px 0;
+}
+.titulo-cent{
+	text-align: center;
+	font-weight: 600;
+	font-size: 34px;
+	color: #fff;
+	margin: 40px 0 30px;
+}
+.p-boxazul {
+	text-align: center;
+	width: 80%;
+	margin: 20px auto 60px;
+	font-size: 16px;
+	color: #fff;
+}
+.interb{
+	display: block;
+	padding: 0 20px;
+	margin: 0  auto
+}
+ #wrapper { position: relative; }
+   #over_map {  position: absolute;
+   	width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(0, 25, 45, 0.2);
+  padding: 5px;
+  height: 450px;
+   }
+   .contacbox{
+   	position: relative;
+   	top: -80px;
+   	padding: 30px;
+   	background-color: #fff;
+   	 z-index: 77;
+   } 
+   .Contact{
+   	padding: 0 10px;
+   }
+    .Contact input, .contact textarea{
+   	border:0px;
+   	margin: 10px 2px 14px;
+   	border-bottom: 1px solid #00192D;
+   	border-radius: 0px;
+   	padding: 10px;
+   	font-size: 14px;
+   }
+    .Contact p{
+   	font-size: 16px;
+   }
+   .titulo-conta{
+	font-weight: 600;
+	font-size: 34px;
+	color: #2B3344;
+	margin: 10px 0 20px;
+}
+.boxint{
+	padding: 0;
+	 width: 92%;
+	 margin: 0px auto;
+}
+.corte{
+	margin: 50px auto;
+	display: block;
+}
+.texfin{
+	font-size: 18px;
+	color: #0087C2;
+	text-align: center;
+	margin: 30px 0;
+}
+.boxi{
+	-webkit-box-shadow: 1px -1px 1px 1px #C9C9C9;
+box-shadow: 1px -1px 1px 1px #C9C9C9;
+	padding: 45px;
+	margin: 0;
+}
+.bxlogo{
+	border: 1px solid #127EB2;
+	border-radius: 2px;
+	padding: 5px;
+	text-align: center;
+	background-color: #fff;
+}
+.titufran {
+	background-color: #127EB2;
+}
+.titufran h3 {
+	padding: 15px;
+	font-weight: 700;
+	font-size: 22px;
+	color: #070917;
+	margin-bottom: 20px;
+}
+.titufran h3 span{
+	color: #fff;
+}
+.titufrazul {
+	background-color: #127EB2;
+}
+.titufrazul h3 {
+	padding: 15px;
+	font-weight: 700;
+	font-size: 22px;
+	color: #070917;
+	margin-bottom: 0px;
+}
+.titufrazul h3 span{
+	color: #fff;
+}
+.boxazul2{
+	background-color: #0B1F30;
+	background-image: url(../img/back.png);
+	padding: 20px 0 30px;
+	margin: 0px 0;
 }
 .mobil {
 	display: none !important;
