@@ -34,6 +34,7 @@
     <span class="sr-only">Next</span>
   </a>-->
 </div>
+</div>
 <div class="container">
 
   <div id="banner2" class="carousel slide banner2" data-ride="carousel">
@@ -91,37 +92,118 @@
     </ol>
   </div>
 </div>
-
+<br>
 <div class="container-fluid">
   <div class="row" style="background-color:#F2F2F0">
-    <div class="col">
+    <div class="col-sm">
       <img src="assets/img/img-comp.jpg" class="img-fluid">
     </div>
-    <div class="col">
+    <div class="col-sm">
       <div class="box-comp">
-       <h3 class="subtihom">Nuestro <span>Compromiso</span></h3>
+       <h3 class="subtihom2">Nuestro <span>Compromiso</span></h3>
        <p class="p-t">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
        nonummy nibh euismod tincidunt ut . </p>
 
        <ul class="list-comp">
-        <li>Asesoría en la escogencia de ARL dentro de un mercado altamente segmentado
-        y con grandes diferencias en los términos económicos de las ofertas.</li>
+        <li> <i class="fas fa-check"></i> <p>Asesoría en la escogencia de ARL dentro de un mercado altamente segmentado
+        y con grandes diferencias en los términos económicos de las ofertas.</p></li>
 
-        <li>Capacidad de negociación con las ARL apalancada en el volumen de negocio.</li>
+        <li><i class="fas fa-check"></i>  <p>Capacidad de negociación con las ARL apalancada en el volumen de negocio.</p></li>
 
-        <li>Supervisión del esquema de negociación.</li>
-        <li>Acompañamiento administrativo en la relación del día a día entre el cliente y la
-        ARL (incapacidades, siniestros, COPASST, mesas laborales, entre otros.)</li>
-        <li>Asesoría técnica en las decisiones que el cliente enfrenta en el desarrollo de sus
-          actividades.
+        <li><i class="fas fa-check"></i>  <p>Supervisión del esquema de negociación.</p></li>
+
+        <li><i class="fas fa-check"></i>  <p>Acompañamiento administrativo en la relación del día a día entre el cliente y la
+        ARL (incapacidades, siniestros, COPASST, mesas laborales, entre otros.)</p></li>
+        <li><i class="fas fa-check"></i>  <p>Asesoría técnica en las decisiones que el cliente enfrenta en el desarrollo de sus
+          actividades.</p>
         </li>
-        <li>Auditoria administrativa en la ejecución presupuestal del recurso de la ARL,
-        incluyendo producción de informes periódicos.</li>
+        <li><i class="fas fa-check"></i>  <p>Auditoria administrativa en la ejecución presupuestal del recurso de la ARL,
+        incluyendo producción de informes periódicos.</p></li>
 
-        <li>Acompañamiento permanente en la planeación y desarrollo de planes de
-        trabajo.</li>
+        <li><i class="fas fa-check"></i>  <p>Acompañamiento permanente en la planeación y desarrollo de planes de
+        trabajo.</p></li>
       </ul>
     </div>
   </div>
+</div>
+</div>
+
+<div class="texto-centro">Nuestro</div>
+<h3 class="subtihom2 text-center">Día a Día</h3>
+
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" style="background-color: #0B1F30;">
+      <div class="box-comp"> 
+
+       <ul class="list-comp2 bln">
+        <li><i class="fas fa-check"></i> <p>Acompañamiento en el diagnóstico</p></li>
+
+        <li><i class="fas fa-check"></i><p>Cuantificación de la ejecución.</p></li>
+
+        <li><i class="fas fa-check"></i><p>Acompañamiento en Accidentes y Enfermedad Laboral</p></li>
+
+        <li><i class="fas fa-check"></i><p>Actividades a nivel integral<br>
+          <small>
+(proveedores independientes de prestación de servicios)</small>.</p></li>
+
+        <li><i class="fas fa-check"></i><p>Mayor capacidad de negociación con la ARL acompañamiento
+administrativo. </p>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div class="col" style="background-color: #3B90D0;">
+      <div class="box-comp">
+
+       <ul class="list-comp2 con">
+        <li class="comp2"><i class="fas fa-check"></i><p>Administración del presupuesto.</p></li>
+
+        <li class="comp2"><i class="fas fa-check"></i><p>Seguimiento a la ejecución de actividades.</p></li>
+
+        <li class="comp2"><i class="fas fa-check"></i><p>Actividades con enfoque  a generar cultura.</p></li>
+
+        <li class="comp2"><i class="fas fa-check"></i><p>Equipo especializado de soporte.</p></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<div class="texto-centro">Nuestros</div>
+<h3 class="subtihom2 text-center">Aliados Estratégicos</h3>
+<span class="barrita"></span>
+<br>
+
+<div class="container">
+<div id="b-logos" class="carousel slide b-logos" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-sm"><img src="assets/img/sura.jpg" class="img-fluid"></div>
+        <div class="col-sm"><img src="assets/img/liberty.jpg" class="img-fluid"></div>
+        <div class="col-sm"><img src="assets/img/colpatria.jpg" class="img-fluid"></div>
+        <div class="col-sm"><img src="assets/img/positiva.jpg" class="img-fluid"></div>
+      </div>
+      </div>
+
+      <div class="carousel-item">
+      <div class="row">
+        <div class="col-sm"><img src="assets/img/sura.jpg" class="img-fluid"></div>
+        <div class="col-sm"><img src="assets/img/liberty.jpg" class="img-fluid"></div>
+        <div class="col-sm"><img src="assets/img/colpatria.jpg" class="img-fluid"></div>
+        <div class="col-sm"><img src="assets/img/positiva.jpg" class="img-fluid"></div>
+      </div>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#b-logos" role="button" data-slide="prev" style="left: -20px; 
+    width: 20px; top: -5px !important;">
+      <i class="fas fa-chevron-left" style="color: #0087C2;"></i>
+    </a>
+    <a class="carousel-control-next" href="#b-logos" role="button" data-slide="next" style=" right: -20px; 
+    width: 20px; top: -5px !important;">
+      <i class="fas fa-chevron-right" style="color: #0087C2;"></i>
+    </a>
 </div>
 </div>

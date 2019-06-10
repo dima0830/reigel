@@ -299,18 +299,14 @@ hr, .hrcolor {
 .list-comp li {
   padding-left: 2px;
   font-size: 12px;
-  margin: 15px 0;
+  margin: 2px 0;
 }
-.list-comp li:before {
-	display: inline-block;
-      content: '\f00c';
-      font-family: "Font Awesome 5 Free";
-      color: #0f0f19;
-      margin-right: 10px; 
-}
+
 .list-comp li i{
-	margin-right: 15px;
+	float: left;
 	display: inline-block;
+	color: #3B90D0;
+	margin: 4px  10px 0 0;
 }
 .list-comp li p{
 	width: 90%;
@@ -321,8 +317,17 @@ hr, .hrcolor {
 	display: block;
 	color: #3B90D0;
 }
-.subtihom span{
+.subtihom span, .subtihom2 span{
 	color: #3B90D0;
+}
+.subtihom2 {
+	font-weight: 700;
+	color: #444444;
+	margin-bottom: 20px;
+ 	font-size: 35px;
+}
+.comp2 i{
+	color: #0B1F30 !important;
 }
 .inica{;
 	padding:8px 1px;
@@ -338,11 +343,98 @@ hr, .hrcolor {
 	border-bottom: 10px solid transparent;
     opacity: .1;
 }
+.texto-centro{
+	text-align: center;
+	color: #3B90D0;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 30px auto 5px;
+}
+.bln{
+	color: #fff;
+}
+.list-comp2{
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.list-comp2 li {
+  padding-left: 2px;
+  font-size: 15px;
+  margin: 5px 0;
+}
+.list-comp2 li i{
+ float: left;
+	display: inline-block;
+	color: #fff;
+	margin: 4px  10px 0 0;
+}
 
+.list-comp2 li p{
+	width: 90%;
+	display: inline-block;
+}
+.barrita{
+	width: 60px;
+	padding: 2px;
+	display: block;
+	margin: 5px auto;
+	background-color: #3B90D0;
+}
+.b-logos{
+	margin: 10px auto 20px;
+}
+.con{
+	color: #0B1F30;
+
+}
 .p-t{
 	font-size: 15px;
 	line-height: 2;
 	padding: 10px;
+}
+/* interna */
+.head {
+	width: 100%;
+	display: block;
+	background-image: url(../img/nosotros.png);
+	text-align: center;
+	padding: 30px;
+}
+.head h3{
+	font-weight: bold;
+	font-size: 34px;
+	color:#fff;
+	margin-top: 100px;
+}
+.head p{
+	width: 50%;
+	margin: 20px auto 60px;
+	display: border 1px solid red;
+	font-size: 21px;
+	color: #fff;
+}
+/* nosotros */
+.menuseun {
+	width: 100%;
+	background-color: #4776E0;
+	text-align: center;
+}
+
+.menuseun ul{
+	list-style: none;
+	display: inline-block;
+	margin: 10px auto;
+}
+.menuseun ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.menuseun ul li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
 }
 .mobil {
 	display: none !important;
@@ -421,6 +513,17 @@ hr, .hrcolor {
 .botones a{
 	font-size: 8px;
 	padding: 5px;
+}
+.box-comp{
+	padding: 10px;
+	margin: 0 20px;
+}
+.b-logos{
+	text-align: center;
+	margin: 2px;
+}
+.b-logos img {
+	width: 50%;
 }
 
 
