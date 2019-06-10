@@ -1,86 +1,150 @@
 <div class="container-fluid menu">
 <div class="row">
     <div class="col-md-4 offset-md-7" >
-      <form class="form buscador" >
-      <input class="bcprin" type="search" placeholder="" aria-label="Search">
-      <button class="boton" type="submit"><i class="fas fa-search"></i></button>
+
+    	<div class="buscador">
+   <form class="form ">
+  <div class="input-group">
+    <input type="text" class="form-control" >
+    <div class="input-group-append">
+      <button class="btn btn-secondary" type="button">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div> 
+  </form> 
+</div>
+
     </form>
   </div>
-  <div class="col-md-1"><a href="#" class="log">LOGIN</a></div>
+  <div class="col-md-1">
+  	<a href="#" class="log">LOGIN</a>
+  </div>
 </div>
 </div>
 
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-light ">
+	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
   </button>
+  <a class="navbar-brand" href="#" ><img src="assets/img/logo.jpg"> </a><div class="pc numer">| <i class="fas fa-phone"></i> Llamanos: <span>(51) 123-4567</span></div>
+ <div class="mobil user"><a href="#"><i class="fas fa-portrait"></i></a></div>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto list-mega">
+      <li class=""><a href="#"> Home</a></li>
+      <li class="nav-item dropdown">
+      	 <a  data-toggle="dropdown" href="#"  aria-haspopup="true" aria-expanded="false">Nosotros <i class="fas fa-chevron-down"></i></a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Historia</a>
+      <a class="dropdown-item" href="#">Misión y Visión</a>
+      <a class="dropdown-item" href="#">Quiénes somos</a>
+    </div>
+      </li>
+
       <li class="nav-item dropdown megamenu-li">
-       <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mega Menu 1</a>
+       <a href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Servicios <i class="fas fa-chevron-down"></i></a>
        <div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
         <div class="row">
-         <div class="col-sm-6 col-lg-3">
-          <h5>Links</h5>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+         <div class="col-sm-6 col-lg">
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-1.png" class="img-fluid">
+          	<h3>
+          		<span>Herramienta</span><br>de Gestion
+          	</h3>
+          </a>
+         <a class="dropdown-item lismenu" href="#">
+         	<img src="assets/img/sm-2.png" class="img-fluid">
+         	<h3><span>Outdoor </span><br>Training</h3>
+         </a>
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-3.png" class="img-fluid">
+          	<h3><span>Formacion </span><br>Virtual</h3>
+          </a>
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-4.png" class="img-fluid">
+          	<h3><span>Consultoria </span><br>Auditorial</h3>
+          </a>
          </div>
-         <div class="col-sm-6 col-lg-3">
-          <h5>More Links</h5>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <a class="dropdown-item" href="#">Another action</a>
+       <div class="col-sm-6 col-lg">
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-5.png" class="img-fluid">
+          	<h3>
+          		<span>Requisitos</span><br>Legales
+          	</h3>
+          </a>
+         <a class="dropdown-item lismenu" href="#">
+         	<img src="assets/img/sm-6.png" class="img-fluid">
+         	<h3><span>Medicina</span><br>Laboral</h3>
+         </a>
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-7.png" class="img-fluid">
+          	<h3><span>Riesgo</span><br>Psicosocial</h3>
+          </a>
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-8.png" class="img-fluid">
+          	<h3><span>Proceso Horas</span><br>Extras</h3>
+          </a>
          </div>
-         <div class="col-sm-6 col-lg-3">
-          <h5>Paragraph</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus in veritatis, facilis eligendi sunt, culpa autem harum porro earum.</p>
+      <div class="col-sm-6 col-lg">
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-9.png" class="img-fluid">
+          	<h3>
+          		<span>Acondicionamiento</span><br>Fisico
+          	</h3>
+          </a>
+         <a class="dropdown-item lismenu" href="#">
+         	<img src="assets/img/sm-10.png" class="img-fluid">
+         	<h3><span>Planes</span><br>Emergencia</h3>
+         </a>
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-11.png" class="img-fluid">
+          	<h3><span>SGSST</span><br>Loremp ipsum</h3>
+          </a>
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-12.png" class="img-fluid">
+          	<h3><span>Control de</span><br>Riesgos</h3>
+          </a>
          </div>
-         <div class="col-sm-6 col-lg-3">
-          <h5>Image</h5>
-          <img src="https://source.unsplash.com/250x150/?sig=4" alt="..." style="width: 100%;">
+         <div class="col-sm-6 col-lg">
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-13.png" class="img-fluid">
+          	<h3>
+          		<span>Estudios y </span><br>Mediciones Higiéncias
+          	</h3>
+          </a>
+         <a class="dropdown-item lismenu" href="#">
+         	<img src="assets/img/sm-14.png" class="img-fluid">
+         	<h3><span>Riesgo</span><br>Biomecanico</h3>
+         </a>
+          <a class="dropdown-item lismenu" href="#">
+          	<img src="assets/img/sm-15.png" class="img-fluid">
+          	<h3><span>Otras</span><br>Actividades</h3>
+          </a>
          </div>
-        </div>
-       </div>
-      </li>
-      <li class="nav-item dropdown megamenu-li">
-       <a class="nav-link dropdown-toggle" href="" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mega Menu 2</a>
-       <div class="dropdown-menu megamenu" aria-labelledby="dropdown02">
-        <div class="row">
-         <div class="col-sm-6 col-lg-4">
-          <h5>Image Slider</h5>
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-           <div class="carousel-inner">
-            <div class="carousel-item active">
-             <img class="d-block w-100" src="https://source.unsplash.com/250x150/?sig=1" alt="...">
-            </div>
-            <div class="carousel-item">
-             <img class="d-block w-100" src="https://source.unsplash.com/250x150/?sig=2" alt="...">
-            </div>
-            <div class="carousel-item">
-             <img class="d-block w-100" src="https://source.unsplash.com/250x150/?sig=3" alt="...">
-            </div>
-           </div>
+         <div class="col-sm-6 col-lg">
+         	<div class="img-menu">
+          <img src="assets/img/md-menu.png" class="img-fluid">
+          <p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
           </div>
          </div>
-         <div class="col-sm-6 col-lg-3">
-          <h5>Links</h5>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-         </div>
-         <div class="col-sm-6 col-lg-5">
-          <h5>Paragraph</h5>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit itaque minus distinctio possimus reiciendis et repellat. Voluptate, temporibus veniam et praesentium alias, maxime repudiandae aliquid, natus omnis animi iste!</p>
-         </div>
         </div>
        </div>
       </li>
+      <li class=""><a href="#">Clientes</a></li>
+      <li class=""><a href="#">Equipo Humano</a></li>
+      <li class="contac"><a href="#">CONTÁCTO</a></li>
     </ul>
   </div>
 </nav>
+<div class="formobil mobil">
+  <!-- Another variation with a button -->
+  <div class="input-group">
+    <input type="text" class="form-control" >
+    <div class="input-group-append">
+      <button class="btn btn-secondary" type="button">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>  
+</div>
