@@ -284,7 +284,7 @@ hr, .hrcolor {
 .tex-home{
 	text-align: justify;
 	color: #787878;
-	font-size: 15px;
+	font-size: 18px;
 	margin-top: 50px;
 }
 .carousel-indicators{
@@ -348,7 +348,7 @@ hr, .hrcolor {
 	color: #3B90D0;
 	font-size: 16px;
 	font-weight: 600;
-	margin: 30px auto 5px;
+	margin: 30px auto 1px;
 }
 .bln{
 	color: #fff;
@@ -396,19 +396,65 @@ hr, .hrcolor {
 }
 /* interna */
 .head {
+	background-position: top center;
 	width: 100%;
 	display: block;
 	text-align: center;
 	padding: 30px;
 }
 .nosot {
-	background-image: url(../img/nosotros.png);
+	background-image: url(../img/banner/nosotros.png);
 }
 .equi {
-	background-image: url(../img/eqipo-b.png);
+	background-image: url(../img/banner/eqipo-b.png);
 }
 .clien {
-	background-image: url(../img/clientes-b.png);
+	background-image: url(../img/banner/clientes-b.png);
+}
+.hg {
+	background-image: url(../img/banner/hg-b.jpg);
+}
+.ot {
+	background-image: url(../img/banner/b-img2.jpg);
+}
+.ca {
+	background-image: url(../img/banner/b-img3.jpg);
+}
+.rl {
+	background-image: url(../img/banner/b-img4.jpg);
+}
+.ml {
+	background-image: url(../img/banner/b-img5.jpg);
+}
+.rp {
+	background-image: url(../img/banner/b-img6.jpg);
+}
+.ph {
+	background-image: url(../img/banner/b-img7.jpg);
+}
+.rp {
+	background-image: url(../img/banner/b-img8.jpg);
+}
+.af{
+	background-image: url(../img/banner/b-img9.jpg);
+}
+.pde{
+	background-image: url(../img/banner/b-img10.jpg);
+}
+.oa{
+	background-image: url(../img/banner/b-img11.jpg);
+}
+.sg{
+	background-image: url(../img/banner/b-img12.jpg);
+}
+.gpr{
+	background-image: url(../img/banner/b-img13.jpg);
+}
+.emh{
+	background-image: url(../img/banner/b-img14.jpg);
+}
+.rb{
+	background-image: url(../img/banner/b-img15.jpg);
 }
 .head h3{
 	font-weight: bold;
@@ -428,6 +474,19 @@ hr, .hrcolor {
 	width: 100%;
 	background-color: #4776E0;
 	text-align: center;
+}
+.textoDesplegable {
+  max-height: 190px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.textoDesplegable.open {
+  max-height: 600px;
+}
+.leerMasTr{
+	margin: 20px 0;
+	color: #fff !important;
+
 }
 
 .menuseun ul{
@@ -552,8 +611,7 @@ hr, .hrcolor {
 	margin: 30px 0;
 }
 .boxi{
-	-webkit-box-shadow: 1px -1px 1px 1px #C9C9C9;
-box-shadow: 1px -1px 1px 1px #C9C9C9;
+	border: 1px solid #ddd;
 	padding: 45px;
 	margin: 0;
 }
@@ -596,8 +654,127 @@ box-shadow: 1px -1px 1px 1px #C9C9C9;
 	padding: 20px 0 30px;
 	margin: 0px 0;
 }
+.userFixed {
+  display: none;
+  position: fixed;
+  top: 460px;
+  right: 0;
+  background-color: #127EB2;
+  color: #FFFFFF;
+  padding: 5px 8px;
+  z-index: 99999; }
+  @media (max-width: 991px) {
+    .userFixed {
+      display: block; }
+  }
+
 .mobil {
 	display: none !important;
+}
+/* login*/
+.logoprin{
+	margin: 0 auto;
+	display: block;
+}
+.plogin {
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+	color: #00162C;
+	font-weight: 300;
+	font-size: 13px;
+	padding: 20px 30px 20px 0;
+}
+.logon {
+	background-image: url(../img/back-log.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.tituiLogin{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 64%;
+	color: #00162C;
+}
+.tituiLogin span{
+	font-weight: 700;
+	color: #4776E0;
+}
+.box-formLg{
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px 15px 30px;
+	margin-top: 40%;
+}
+.espacio{
+	display: block;
+	padding: 20px;
+	border: 1px solid r
+}
+.text-mmenu{
+	margin: 20px 0;
+}
+.text-mmenu p{
+	font-size: 12px;
+}
+.box-hg{
+	background-color: #0B1F30;
+	padding: 15px 10px;
+	margin-bottom: 15px;
+	display: block;
+}
+.box-hg p{
+	font-size: 12px;
+	color: #fff;
+	text-align: justify;
+}
+.titulo-int{
+	font-size: 18px;
+	color: #0B1F30;
+	font-weight: 700;
+	text-align: center;
+}
+.titulo-int span{
+	color: #127EB2;
+	display: block;
+}
+.magen-int{
+	display: block;
+	margin: 30px 0;
+}
+.text-ot{
+	color: #0B1F30;
+	font-size: 16px;
+}
+.lis-inot{
+	padding: 0;
+}
+.lis-inot li{
+	font-size: 14px;
+	margin: 5px;
+	color: #127EB2;
+	display: block; 
+}
+.centro img{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.list2{s
+	font-size: 14px;
+	margin-top: 45px;
+}
+.list2 li{
+	color: #0B1F30;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+.box-hg p strong{
+	font-weight: 700;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
 }
 /* estilos mobil menu superior */
 @media only screen and (max-width: 760px){
@@ -642,7 +819,7 @@ box-shadow: 1px -1px 1px 1px #C9C9C9;
 		padding-bottom: 2px;
 	}
 	.formobil {
-    padding: 0 5%;
+    padding: 0 1%;
     margin-bottom: 10px;
 }
 .logof{
@@ -685,8 +862,223 @@ box-shadow: 1px -1px 1px 1px #C9C9C9;
 .b-logos img {
 	width: 50%;
 }
+.minisub{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 16px;
+}
+.subtihom{
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 30px;	
+}
+.tex-home{
+	text-align: justify;
+	color: #787878;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.alink{
+	text-align: center;
+	margin: 20px 0;
+}
+.banner2  br {
+	display: none;
+}
+.box-comp{
+	padding: 10px 0px;
+	margin: 0 10px;
+}
+.subtihom2 {
+	text-align: center;
+	margin: 20px 0;
+ 	font-size: 24px;
+}
+.p-t{
+	font-size: 13px;
+	line-height: 1;
+	padding: 2px;
+	text-align: center;
+}
+.texto-centro{
+	font-size: 18px;
+	margin: 30px auto -10px;
+}
+.centro{
+	text-align: center;
+}
 
+/* interna */
+.head {
+	padding: 20px;
+	background-size: cover;
+}
 
+.head h3{
+	font-size: 34px;
+	margin-top: 20px;
+}
+.head p{
+	width:90%;
+	margin: 20px auto 20px;
+	font-size: 16px;
+}
+.nosot {
+	background-image: url(../img/banner-m/nosotros-mobil.jpg);
+}
+.equi {
+	background-image: url(../img/banner-m/eqipo-bmobil.jpg);
+}
+.clien {
+	background-image: url(../img/banner-m/clientes-bmobil.jpg);
+}
+.hg {
+	background-image: url(../img/banner-m/hg-bmobil.jpg);
+}
+.ot {
+	background-image: url(../img/banner-m/m-img2.jpg);
+}
+.ca {
+	background-image: url(../img/banner-m/m-img3.jpg);
+}
+.rl {
+	background-image: url(../img/banner-m/m-img4.jpg);
+}
+.ml {
+	background-image: url(../imgbanner-m//m-img5.jpg);
+}
+.rp {
+	background-image: url(../img/banner-m/m-img6.jpg);
+}
+.ph {
+	background-image: url(../img/banner-m/m-img7.jpg);
+}
+.rp {
+	background-image: url(../img/banner-m/m-img8.jpg);
+}
+.af{
+	background-image: url(../img/banner-m/m-img9.jpg);
+}
+.pde{
+	background-image: url(../img/banner-m/m-img10.jpg);
+}
+.oa{
+	background-image: url(../img/banner-m/m-img11.jpg);
+}
+.sg{
+	background-image: url(../img/banner-m/m-img12.jpg);
+}
+.gpr{
+	background-image: url(../img/banner-m/m-img13.jpg);
+}
+.emh{
+	background-image: url(../img/banner-m/m-img14.jpg);
+}
+.rb{
+	background-image: url(../img/banner-m/m-img15.jpg);
+}
+.titufran h3, .titufrazul h3 {
+	text-align: center;
+	font-size: 18px;
+}
+.top-mobil{
+	margin-top: 50px;
+}
+ .contacbox{
+   	padding: 30px 5px;
+   } 
+     .Contact p{
+   	text-align: center;
+   }
+   .titulo-conta{
+   	text-align: center;
+	font-weight: 600;
+	font-size: 25px;
+	color: #2B3344;
+	margin: 5px 0 10px;
+}
+.boxi{
+	border: 1px solid #ddd;
+	padding: 10px 20px;
+	margin: 0;
+}
+.menuseun ul{
+	padding: 0;
+	text-align: center;
+	margin: 5px auto;
+}
+.menuseun ul li{
+	display: inline-block;
+	margin: 0 3px;
+}
+.menuseun ul li a{
+	font-size: 13px;
+}
+
+.text-int {
+	text-align: justify;
+}
+.titulo-cent{
+	text-align: center;
+	font-size: 24px;
+	margin: 20px 0 30px;
+}
+.text-int-b {
+	padding: 2px;
+}
+.text-int-b span{
+	font-size: 18px;
+	color: #fff;
+	padding: 5px;
+}
+.boxazul{
+	background-color: #0B1F30;
+	background-image: url(../img/back.png);
+	padding: 20px 0 30px;
+	margin: 40px 0;
+}
+.p-boxazul {
+	width: 100%;
+	font-size: 14px;
+}
+.interb{
+	padding: 0 2px;
+}
+
+/* login*/
+
+.plogin {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	color: #00162C;
+	padding: 10px;
+}
+.logon {
+	background-image: url(../img/back-m.jpg);
+	background-size: cover;
+}
+.tituiLogin{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 50px;
+}
+.tituiLogin span{
+	font-weight: 700;
+	color: #4776E0;
+}
+.box-formLg{
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px 15px 30px;
+	margin: 15px;
+}
+.magen-int{
+	margin: 10px 0;
+}
+  .espacio{
+  	display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -756,6 +1148,97 @@ box-shadow: 1px -1px 1px 1px #C9C9C9;
 	text-align: right;
 	margin:15px 0 30px;
 }
+.subtihom{
+	font-size: 18px;
+	text-align: center;
+}
+.tex-home{
+	margin-top: 20px;
+}
+.alink{
+	margin: 20px 0;
+}
+.banner2  br {
+	display: none;
+}
+.subtihom2 {
+	text-align: center;
+	margin: 20px 0;
+}
+.box-comp{
+	padding: 10px 10px;
+	margin: 0 10px;
+}
+/* interna */
+.head {
+	padding: 20px;
+}
+
+.head h3{
+	font-size: 34px;
+	margin-top: 50px;
+}
+.head p{
+	width:50%;
+	margin: 40px auto 40px;
+	font-size: 16px;
+}
+.nosot {
+	background-image: url(../img/nosotros-mobil.jpg);
+}
+.equi {
+	background-image: url(../img/eqipo-bmobil.jpg);
+}
+.clien {
+	background-image: url(../img/clientes-bmobil.jpg);
+}
+.titufran h3, .titufrazul h3 {
+	text-align: center;
+	font-size: 18px;
+}
+.centro{
+	text-align: center;
+}
+.boxi{
+	border: 1px solid #ddd;
+	padding: 10px 20px;
+	margin: 0;
+}
+
+.minisub{
+	text-align: center;
+}
+/* login*/
+
+.plogin {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	color: #00162C;
+	padding: 10px;
+}
+.logon {
+	background-size:120%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.tituiLogin{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 70%;
+}
+.tituiLogin br {
+	display: none;
+}
+.tituiLogin span{
+	font-weight: 700;
+	color: #4776E0;
+}
+.box-formLg{
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px 15px 30px;
+	margin: 25% 0;
+}
 
 }
 
@@ -813,5 +1296,41 @@ box-shadow: 1px -1px 1px 1px #C9C9C9;
 	display: block;
 	text-align: right;
 	margin:10px 0 30px;
+}
+.box-comp{
+	padding: 30px 10px 15px;
+	margin: 0 10px;
+}
+/* interna */
+.head {
+	padding: 40px;
+}
+
+.head p{
+	width:50%;
+	margin: 40px auto 40px;
+	font-size: 16px;
+}
+.boxi{
+	border: 1px solid #ddd;
+	padding: 20px 30px;
+	margin: 0;
+}
+.tituiLogin{
+	margin-top: 55%;
+}
+.tituiLogin span{
+	font-weight: 700;
+	color: #4776E0;
+}
+.box-formLg{
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px 15px 30px;
+	margin-top: 40%;
+}
+.logon {
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top center;
 }
 }

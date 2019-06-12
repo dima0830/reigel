@@ -1,8 +1,8 @@
 <div id="b-pricp" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/banner-mobil.jpg" class="d-block w-100 mobil">
-      <img src="assets/img/banner-princ.png" class="d-block w-100 pc">
+      <img src="assets/img/banner-m/banner-mobil.jpg" class="d-block w-100 mobil">
+      <img src="assets/img/banner/banner-princ.png" class="d-block w-100 pc">
       <div class="row">
         <div class="col-sm-5"></div>
         <div class="col-sm-7">
@@ -57,7 +57,7 @@
               Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy
             nibh euismod tincidunt ut laoreet dolore magna aliquam erat volut.</p>
 
-            <a href="#" class="alink">Ir a Nosotros</a>
+            <a href="nosotros" class="alink">Ir a Nosotros</a>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
       <div class="carousel-item">
         <div class="row">
           <div class="col-md">
-            <img src="assets/img/fu.jpg" class="img-fluid">
+            <img src="assets/img/fund1.jpg" class="img-fluid">
           </div>
           <div class="col-md">
             <p class="minisub">Quienes Somos</p>
@@ -96,10 +96,10 @@
 
 <div class="container-fluid">
   <div class="row" style="background-color:#F2F2F0">
-    <div class="col-sm">
+    <div class="col-lg">
       <img src="assets/img/img-comp.jpg" class="img-fluid">
     </div>
-    <div class="col-sm">
+    <div class="col-lg">
       <div class="box-comp">
        <h3 class="subtihom2">Nuestro <span>Compromiso</span></h3>
        <p class="p-t">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
@@ -135,7 +135,7 @@
 <br>
 <div class="container-fluid">
   <div class="row">
-    <div class="col" style="background-color: #0B1F30;">
+    <div class="col-sm" style="background-color: #0B1F30;">
       <div class="box-comp"> 
 
        <ul class="list-comp2 bln">
@@ -155,7 +155,7 @@ administrativo. </p>
       </ul>
     </div>
     </div>
-    <div class="col" style="background-color: #3B90D0;">
+    <div class="col-sm" style="background-color: #3B90D0;">
       <div class="box-comp">
 
        <ul class="list-comp2 con">
@@ -177,7 +177,7 @@ administrativo. </p>
 <br>
 
 <div class="container">
-<div id="b-logos" class="carousel slide b-logos" data-ride="carousel">
+<div id="b-logos" class="carousel slide b-logos pc" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="row">
@@ -206,5 +206,24 @@ administrativo. </p>
     width: 20px; top: -5px !important;">
       <i class="fas fa-chevron-right" style="color: #0087C2;"></i>
     </a>
+</div>
+
+<!--- versión mobil-->
+
+<div id="b-logos2" class="carousel slide b-logos mobil" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-6" style="text-align: center;"><img src="assets/img/sura.jpg" class="img-fluid"></div>
+        <div class="col-6" style="text-align: center;"><img src="assets/img/liberty.jpg" class="img-fluid"></div>
+      </div>
+      </div>
+      <div class="carousel-item">
+      <div class="row">
+        <div class="col-6" style="text-align: center;"><img src="assets/img/colpatria.jpg" class="img-fluid"></div>
+        <div class="col-6" style="text-align: center;"><img src="assets/img/positiva.jpg" class="img-fluid"></div>
+      </div>
+      </div>
+    </div>
 </div>
 </div>

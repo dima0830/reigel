@@ -33,7 +33,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-1"></div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 centro">
 				<span class="redes"><a href="#"> <i class="fab fa-facebook-f"></i></a></span>
 				<span class="redes"><a href="#"><i class="fab fa-twitter"></i></a></span>
 				<span class="redes"><a href="#"><i class="fab fa-youtube"></i></a></span>

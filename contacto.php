@@ -50,7 +50,7 @@
         </form>
       </div>
       <div class="col-sm-5">
-        <img src="assets/img/img-hist.jpg" class="img-fluid">
+        <img src="assets/img/contact.png" class="img-fluid top-mobil">
       </div>
     </div>
   </div>
